@@ -1,4 +1,4 @@
-# tech-blog
+# Josh's Tech Blog
 
 GIVEN a CMS-style blog site
 
