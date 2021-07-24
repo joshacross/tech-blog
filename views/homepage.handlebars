@@ -1,4 +1,22 @@
 <ol class="post-list">
+    <article class="blogSubmit">
+    <h1>Welcome To Josh's Tech Blog</h1>
+    <h3>Sharing Tips and Tricks of Code Through Telekenesis and Blog Articles</h3>
+    <br>
+    <h4>To Get Started, Please Login In.<h4>
+        <h4>Then Submit The World Is Your Oyster!</h4>
+<br><br>
+    <p>Upload A Photo For Your Blog</p>
+    <input type="image" placeholder="Upload Photo">
+    <br>
+    <br>
+    <input type="text" placeholder="Insert Blog Here">
+    <br>
+    <br>
+        <input type="text" placeholder="Blog Title">
+<br>
+    <button type="submit">Submit</button>
+</article>
     {{#each posts as |post|}}
     <li>
         <article class="post">
@@ -12,9 +30,6 @@
                 <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
             </div>
             <input type="text" placeholder="comments">
-
-            </input>
-
         </article>
     </li>
     {{/each}}
